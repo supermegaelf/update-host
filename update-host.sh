@@ -6,7 +6,7 @@ DB_NAME="marzban"
 echo -n "Enter host ID (e.g., '10'): "
 read HOST_ID
 
-echo -n "Enter MariaDB password: "
+echo -n "Marzban DB password: "
 read DB_PASSWORD
 
 echo "Select inbound type:"
