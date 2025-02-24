@@ -7,7 +7,7 @@ echo -n "Enter host ID (e.g., '10'): "
 read HOST_ID
 
 echo -n "Marzban DB password: "
-read DB_PASSWORD
+read -s DB_PASSWORD
 
 echo "Select inbound type:"
 echo "1. VLESS Reality Steal Oneself"
