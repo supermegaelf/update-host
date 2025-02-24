@@ -30,6 +30,7 @@ case "$CHOICE" in
         SET 
             remark = '$REMARK', 
             address = '$ADDRESS', 
+            port = 443,
             inbound_tag = '$INBOUND_TAG', 
             sni = '$SNI' 
         WHERE id = $HOST_ID;
@@ -51,6 +52,7 @@ case "$CHOICE" in
         SET 
             remark = '$REMARK', 
             address = '$ADDRESS', 
+            port = 443,
             inbound_tag = '$INBOUND_TAG', 
             sni = '$SNI', 
             host = '$HOST', 
@@ -75,6 +77,7 @@ case "$CHOICE" in
         SET 
             remark = '$REMARK', 
             address = '$ADDRESS', 
+            port = 443,
             inbound_tag = '$INBOUND_TAG', 
             sni = '$SNI', 
             host = '$HOST', 
